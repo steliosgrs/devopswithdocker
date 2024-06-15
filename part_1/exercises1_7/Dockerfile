@@ -1,4 +1,4 @@
-# Start from the alpine image
+# Start from the ubuntu image
 FROM ubuntu:22.04
 
 # Use /usr/src/app as our workdir. The following instructions will be executed in this location.

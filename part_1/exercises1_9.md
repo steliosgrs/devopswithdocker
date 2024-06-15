@@ -1,6 +1,6 @@
 
 ```sh
-docker run -it devopsdockeruh/pull_exercise
+docker run --rm -v "$PWD/text.log:/usr/src/app/text.log"  devopsdockeruh/simple-web-service
 ```
 
 ```txt

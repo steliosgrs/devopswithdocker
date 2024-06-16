@@ -9,8 +9,10 @@ RUN go build
 
 RUN go test .
 
-ENV REQUEST_ORIGIN=https://example.com
+ENV REQUEST_ORIGIN=http://localhost:5000
 
-EXPOSE 8080
+ENV PORT=9000
+
+EXPOSE 9000
 
 ENTRYPOINT [ "./server" ] 
